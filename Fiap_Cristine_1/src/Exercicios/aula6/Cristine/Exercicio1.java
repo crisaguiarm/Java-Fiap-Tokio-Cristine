@@ -8,7 +8,7 @@ public class Exercicio1 {
 		Scanner entrada1 = new Scanner(System.in);
 		System.out.print("Digite um numero: ");
 		int num = entrada1.nextInt();
-		if (num % 2 = 0) {
+		if (num % 2 <= 0) {
 			System.out.println("Par");
 	} else {
 	System.out.println("Impar");
