@@ -22,15 +22,15 @@ public class Exercicio9 {
         switch (categoria) {
         case 'R':
         	Vt = (0.60 * gasto);
-        	System.out.printf("O valor gasto e:R$ %.2f", Vt);
+        	System.out.printf("Voce pagara: R$ %.2f", Vt);
         break;
         case 'C':
         	Vt = (0.48 * gasto);
-        	System.out.printf("O valor gasto e:R$ %.2f", Vt);
+        	System.out.printf("Voce pagara: R$ %.2f", Vt);
         break;
         case 'I':
         	Vt = (1.29 * gasto);
-        	System.out.printf("O valor gasto e:R$ %.2f", Vt);
+        	System.out.printf("Voce pagara: R$ %.2f", Vt);
         break;
         default:
         	System.out.println("Categoria Inválida!");
